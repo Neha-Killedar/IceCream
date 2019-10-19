@@ -30,7 +30,7 @@ public class IceCreamProject {
 		
 		BufferedReader br= new BufferedReader(new InputStreamReader(System.in));
 		System.out.println("\n\n Your Choice: ");
-		int choice= Integer.parseInt(br.readLine());
-		IceCream.getPrice(choice);
+		int cho= Integer.parseInt(br.readLine());
+		IceCream.getPrice(cho);
 	}
 }
